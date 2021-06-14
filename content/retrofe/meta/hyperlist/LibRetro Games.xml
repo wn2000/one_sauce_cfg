@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>LibRetro Games</listname>
+		<lastlistupdate>01/12/2021</lastlistupdate>
+		<listversion>1.0</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="dinothawr" index="" image="">
+		<description>Dinothawr</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre>Puzzle</genre>
+		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="doukutsu" index="" image="">
+		<description>Cave Story</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Studio Pixel</manufacturer>
+		<year>2004</year>
+		<genre>Platform</genre>
+		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="flashback" index="" image="">
+		<description>Flashback - The Quest for Identity</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Delphine Software International</manufacturer>
+		<year>1993</year>
+		<genre>Platform</genre>
+		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>    
+	<game name="pal" index="true" image="b">
+		<description>Legend of Sword and Fairy, The</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Softstar</manufacturer>
+		<year>1995</year>
+		<genre>Role-Playing</genre>
+		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="rick" index="true">
+		<description>Rick Dangerous</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Core Design</manufacturer>
+		<year>1989</year>
+		<genre>Platform</genre>
+		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>
