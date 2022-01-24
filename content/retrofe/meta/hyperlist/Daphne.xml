@@ -1,18 +1,42 @@
 <?xml version="1.0"?>
 <menu>
-	<header>
-		<listname>Daphne</listname>
-		<lastlistupdate>03/06/2016</lastlistupdate>
-		<listversion>1.4</listversion>
-		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
-	</header>
+	<game name="ace" index="true" image="s">
+		<description>Space Ace</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1984</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="acereva" index="" image="">
+		<description>Space Ace (Rev A)</description>
+		<cloneof>ace</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="acereva2" index="" image="">
+		<description>Space Ace (Rev A2)</description>
+		<cloneof>ace</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
 	<game name="astron" index="true" image="a">
 		<description>Astron Belt</description>
 		<cloneof></cloneof>
 		<crc></crc>
 		<manufacturer>Bally Midway</manufacturer>
 		<year>1983</year>
-		<genre>Shoot-&apos;Em-Up</genre>
+		<genre></genre>
 		<rating>HSRS - GA (General Audience)</rating>
 		<enabled>Yes</enabled>
 	</game>
@@ -22,8 +46,18 @@
 		<crc></crc>
 		<manufacturer>Bally Midway</manufacturer>
 		<year>1983</year>
-		<genre>Shoot-&apos;Em-Up</genre>
+		<genre></genre>
 		<rating>HSRS - GA (General Audience)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="badlandh" index="" image="">
+		<description>Badlands (Hitachi)</description>
+		<cloneof>badlands</cloneof>
+		<crc></crc>
+		<manufacturer>Konami</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="badlands" index="true" image="b">
@@ -36,13 +70,6 @@
 		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="badlandh">
-		<description>Badlands (Hitachi)</description>
-		<cloneof>badlands</cloneof>
-		<year>1984</year>
-		<manufacturer>Konami</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
 	<game name="bega" index="" image="">
 		<description>Bega&apos;s Battle</description>
 		<cloneof></cloneof>
@@ -53,17 +80,14 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="begarev1">
-		<description>Bega's Battle (Rev 1)</description>
+	<game name="begarev1" index="" image="">
+		<description>Bega&apos;s Battle (Rev 1)</description>
 		<cloneof>bega</cloneof>
-		<year>1983</year>
+		<crc></crc>
 		<manufacturer>Data East</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="blazer" index="" image="">
-		<description>Star Blazer (Pioneer)</description>
-		<manufacturer>Sega</manufacturer>
-		<year>1984</year>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="cliff" index="true" image="c">
@@ -76,11 +100,14 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="cliffalt">
+	<game name="cliffalt" index="" image="">
 		<description>Cliff Hanger (Alternate)</description>
 		<cloneof>cliff</cloneof>
-		<year>1983</year>
+		<crc></crc>
 		<manufacturer>Stern</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="cobra" index="" image="">
@@ -93,179 +120,114 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="cobraab">
+	<game name="cobraab" index="" image="">
 		<description>Cobra Command (Astron Belt Hardware)</description>
 		<cloneof>cobra</cloneof>
+		<crc></crc>
 		<manufacturer>Data East</manufacturer>
 		<year>1984</year>
 		<genre>Flying</genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="cobraconv">
+	<game name="cobraconv" index="" image="">
 		<description>Cobra Command (Conversion)</description>
 		<cloneof>cobra</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Data East</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="cobram3">
+	<game name="cobram3" index="" image="">
 		<description>Cobra Command (M.A.C.H. 3 Hardware)</description>
 		<cloneof>cobra</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Data East</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="lair" index="true" image="d">
-		<description>Dragons Lair</description>
-		<cloneof></cloneof>
-		<crc></crc>
-		<manufacturer>Cinematronics</manufacturer>
-		<year>1983</year>
-		<genre>Adventure</genre>
-		<rating>AAMA - Green (Suitable For All Ages)</rating>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="dle11">
-		<description>Dragon's Lair (US enhancement 1.1 L)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="dle21">
-		<description>Dragon's Lair (US enhancement 2.1)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="dle20">
-		<description>Dragon's Lair (US enhancement 2.0)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_f">
-		<description>Dragon's Lair (US revision F)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_e">
-		<description>Dragon's Lair (US revision E)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_a">
-		<description>Dragon's Lair (US revision A)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_b">
-		<description>Dragon's Lair (US revision B)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_c">
-		<description>Dragon's Lair (US revision C)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair_d">
-		<description>Dragon's Lair (US revision D)</description>
-		<cloneof>lair</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="laireuro">
-		<description>Dragon's Lair (Europe)</description>
-		<cloneof>lair</cloneof>
 		<year>1984</year>
-		<manufacturer>Atari</manufacturer>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="lair2" index="" image="">
-		<description>Dragons Lair 2</description>
+	<game name="conan" index="" image="">
+		<description>Conan the Boy in Future</description>
 		<cloneof></cloneof>
 		<crc></crc>
-		<manufacturer>Leland</manufacturer>
-		<year>1991</year>
+		<manufacturer>Poiu</manufacturer>
+		<year>2019</year>
+		<genre></genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="crimepatrol" index="" image="">
+		<description>Crime Patrol</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1993</year>
+		<genre></genre>
+		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="daitarn" index="true" image="d">
+		<description>Daitarn 3</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Poiu</manufacturer>
+		<year>2019</year>
 		<genre>Adventure</genre>
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="lair2_211">
-		<description>Dragon's Lair 2 (Rev v2.11)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
+	<game name="dle11" index="" image="">
+		<description>Dragon&apos;s Lair (US enhancement 1.1 L)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="lair2_300">
-		<description>Dragon's Lair 2 (Rev v3.00)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
+	<game name="dle20" index="" image="">
+		<description>Dragon&apos;s Lair (US enhancement 2.0)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="lair2_314">
-		<description>Dragon's Lair 2 (Rev v3.14)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
+	<game name="dle21" index="" image="">
+		<description>Dragon&apos;s Lair (US enhancement 2.1)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="lair2_315">
-		<description>Dragon's Lair 2 (Rev v3.15)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
+	<game name="drugwars" index="true" image="e">
+		<description>Crime Patrol 2 - Drug Wars</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1993</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="lair2_317">
-		<description>Dragon's Lair 2 (Rev v3.17)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair2_318">
-		<description>Dragon's Lair 2 (Rev v3.18)</description>
-		<cloneof>lair2</cloneof>
-		<year>1991</year>
-		<manufacturer>Leland</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair2_316e">
-		<description>Dragon's Lair 2 (Rev v3.16, Europe)</description>
-		<cloneof>lair2</cloneof>
-		<year>1992</year>
-		<manufacturer>Atari</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair2_319e">
-		<description>Dragon's Lair 2 (Rev v3.19, Europe)</description>
-		<cloneof>lair2</cloneof>
-		<year>1992</year>
-		<manufacturer>Atari</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="lair2_319es">
-		<description>Dragon's Lair 2 (Rev v3.19, Spanish)</description>
-		<cloneof>lair2</cloneof>
-		<year>1992</year>
-		<manufacturer>Atari</manufacturer>
+		<game name="dragon" index="true" image="e">
+		<description>Dragon Trainer</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Poiu</manufacturer>
+		<year>2019</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="esh" index="true" image="e">
@@ -278,31 +240,65 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="eshalt1">
-		<description>Esh's Aurunmilla (Alternate 1)</description>
+	<game name="eshalt1" index="" image="">
+		<description>Esh&apos;s Aurunmilla (Alternate 1)</description>
 		<cloneof>esh</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Funai</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="eshalt2">
-		<description>Esh's Aurunmilla (Alternate 2)</description>
+	<game name="eshalt2" index="" image="">
+		<description>Esh&apos;s Aurunmilla (Alternate 2)</description>
 		<cloneof>esh</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Funai</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="firefox">
+	<game name="fireandice" index="" image="">
+		<description>Fire and Ice</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Karis</manufacturer>
+		<year>2019</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="firefox" index="" image="">
 		<description>Firefox</description>
-		<year>1983</year>
+		<cloneof></cloneof>
+		<crc></crc>
 		<manufacturer>Atari</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="firefoxa">
+	<game name="firefoxa" index="" image="">
 		<description>Firefox (Alternate)</description>
 		<cloneof>firefox</cloneof>
-		<year>1983</year>
+		<crc></crc>
 		<manufacturer>Atari</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled></enabled>
+	</game>
+	<game name="freedomfighter" index="" image="">
+		<description>Freedom Fighter</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>famawizard</manufacturer>
+		<year>2020</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled></enabled>
 	</game>
 	<game name="galaxy" index="true" image="g">
 		<description>Galaxy Ranger</description>
@@ -310,15 +306,18 @@
 		<crc></crc>
 		<manufacturer>Bally Midway</manufacturer>
 		<year>1983</year>
-		<genre>Shoot-&apos;Em-Up</genre>
+		<genre></genre>
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="galaxyp">
+	<game name="galaxyp" index="" image="">
 		<description>Galaxy Ranger (Pioneer)</description>
 		<cloneof>galaxy</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Bally Midway</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="gpworld" index="" image="">
@@ -331,30 +330,14 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="gtg">
+	<game name="gtg" index="" image="">
 		<description>Goal To Go</description>
-		<year>1983</year>
+		<cloneof></cloneof>
+		<crc></crc>
 		<manufacturer>Stern</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="interstellar" index="true" image="i">
-		<description>Interstellar</description>
-		<cloneof></cloneof>
-		<crc></crc>
-		<manufacturer>Funai</manufacturer>
 		<year>1983</year>
-		<genre>Shoot-&apos;Em-Up</genre>
-		<rating>AAMA - Green (Suitable For All Ages)</rating>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="mach3" index="true" image="m">
-		<description>M.A.C.H. 3</description>
-		<cloneof></cloneof>
-		<crc></crc>
-		<manufacturer>Mylstar</manufacturer>
-		<year>1983</year>
-		<genre>Flying</genre>
-		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="hayate" index="true" image="n">
@@ -367,6 +350,266 @@
 		<rating>Other - NR (Not Rated)</rating>
 		<enabled>Yes</enabled>
 	</game>
+	<game name="interstellar" index="true" image="i">
+		<description>Interstellar</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Funai</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="jack" index="true" image="r">
+		<description>Samurai Jack</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Poiu</manufacturer>
+		<year>2019</year>
+		<genre>Driving</genre>
+		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="johnnyrock" index="true" image="u">
+		<description>Who Shot Johnny Rock?</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating>AAMA - Yellow (Animated Violence Mild)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair" index="true" image="d">
+		<description>Dragon&apos;s Lair</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1983</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_a" index="" image="">
+		<description>Dragon&apos;s Lair (US revision A)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_b" index="" image="">
+		<description>Dragon&apos;s Lair (US revision B)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_c" index="" image="">
+		<description>Dragon&apos;s Lair (US revision C)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_d" index="" image="">
+		<description>Dragon&apos;s Lair (US revision D)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_e" index="" image="">
+		<description>Dragon&apos;s Lair (US revision E)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair_f" index="" image="">
+		<description>Dragon&apos;s Lair (US revision F)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2" index="" image="">
+		<description>Dragon&apos;s Lair II - Time Warp</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_211" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v2.11)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_300" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.00)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_314" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.14)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_315" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.15)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_316e" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.16, Europe)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1992</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_317" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.17)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_318" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.18)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Leland</manufacturer>
+		<year>1991</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_319e" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.19, Europe)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1992</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lair2_319es" index="" image="">
+		<description>Dragon&apos;s Lair II (Rev v3.19, Spanish)</description>
+		<cloneof>lair2</cloneof>
+		<crc></crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1992</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="laireuro" index="" image="">
+		<description>Dragon&apos;s Lair (Europe)</description>
+		<cloneof>lair</cloneof>
+		<crc></crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lbh" index="" image="">
+		<description>The Last Bounty Hunter</description>
+		<cloneof>tq</cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1994</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="mach3" index="true" image="m">
+		<description>M.A.C.H. 3</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Mylstar</manufacturer>
+		<year>1983</year>
+		<genre>Flying</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="maddog" index="true" image="m">
+		<description>Mad Dog McCree</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1990</year>
+		<genre>Flying</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="maddog2" index="true" image="m">
+		<description>Mad Dog II - The Lost Gold</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1992</year>
+		<genre>Flying</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="platoon" index="true" image="r">
+		<description>Platoon</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>famawizard</manufacturer>
+		<year>2019</year>
+		<genre>Driving</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
 	<game name="roadblaster" index="true" image="r">
 		<description>Road Blaster</description>
 		<cloneof></cloneof>
@@ -377,35 +620,14 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="ace" index="true" image="s">
-		<description>Space Ace</description>
-		<cloneof></cloneof>
-		<crc></crc>
-		<manufacturer>Cinematronics</manufacturer>
-		<year>1984</year>
-		<genre>Adventure</genre>
-		<rating>AAMA - Green (Suitable For All Ages)</rating>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="acereva2">
-		<description>Space Ace (Rev A2)</description>
-		<cloneof>ace</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="acereva">
-		<description>Space Ace (Rev A)</description>
-		<cloneof>ace</cloneof>
-		<year>1983</year>
-		<manufacturer>Cinematronics (USA)</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-	<game name="sae">
+	<game name="sae" index="" image="">
 		<description>Space Ace (Enhanced)</description>
 		<cloneof>ace</cloneof>
-		<year>1983</year>
+		<crc></crc>
 		<manufacturer>Cinematronics (USA)</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="sdq" index="" image="">
@@ -418,46 +640,58 @@
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="sdqshort">
+	<game name="sdqshort" index="" image="">
 		<description>Super Don Quix-ote (Shorter Scenes)</description>
 		<cloneof>sdq</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Universal</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="sdqshortalt">
+	<game name="sdqshortalt" index="" image="">
 		<description>Super Don Quix-ote (Shorter Scenes, Alternate)</description>
 		<cloneof>sdq</cloneof>
-		<year>1984</year>
+		<crc></crc>
 		<manufacturer>Universal</manufacturer>
+		<year>1984</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-	<game name="tq" index="true" image="t">
-		<description>Thayer&apos;s Quest</description>
+	<game name="spacepirates" index="" image="">
+		<description>Space Pirates</description>
 		<cloneof></cloneof>
 		<crc></crc>
-		<manufacturer>RDI Video Systems</manufacturer>
-		<year>1984</year>
-		<genre>Adventure</genre>
-		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<manufacturer>American Laser Games</manufacturer>
+		<year>1992</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
-        <game name="tq_alt">
-		<description>Thayer's Quest (Alternate)</description>
-		<cloneof>tq</cloneof>
-		<year>1983</year>
-		<manufacturer>RDI Video Systems</manufacturer>
-		<enabled>Yes</enabled>
-	</game>
-        <game name="tq_swear">
-		<description>Thayer's Quest (Swearing)</description>
-		<cloneof>tq</cloneof>
-		<year>1983</year>
-		<manufacturer>Hack</manufacturer>
+	<game name="starblazers" index="" image="">
+		<description>Star Blazers</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1985</year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 	<game name="timegal" index="" image="">
 		<description>Time Gal</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Taito</manufacturer>
+		<year>1985</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="timegalv2" index="" image="">
+		<description>Time Gal V2</description>
 		<cloneof></cloneof>
 		<crc></crc>
 		<manufacturer>Taito</manufacturer>
@@ -476,13 +710,53 @@
 		<rating>Other - NR (Not Rated)</rating>
 		<enabled>Yes</enabled>
 	</game>
+	<game name="titanae" index="" image="">
+		<description>Titan A.E.</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>Karis</manufacturer>
+		<year>2019</year>
+		<genre>Adventure</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="tq" index="true" image="t">
+		<description>Thayer&apos;s Quest</description>
+		<cloneof></cloneof>
+		<crc></crc>
+		<manufacturer>RDI Video Systems</manufacturer>
+		<year>1984</year>
+		<genre>Adventure</genre>
+		<rating>AAMA - Green (Suitable For All Ages)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="tq_alt" index="" image="">
+		<description>Thayer&apos;s Quest (Alternate)</description>
+		<cloneof>tq</cloneof>
+		<crc></crc>
+		<manufacturer>RDI Video Systems</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="tq_swear" index="" image="">
+		<description>Thayer&apos;s Quest (Swearing)</description>
+		<cloneof>tq</cloneof>
+		<crc></crc>
+		<manufacturer>Hack</manufacturer>
+		<year>1983</year>
+		<genre></genre>
+		<rating></rating>
+		<enabled>Yes</enabled>
+	</game>
 	<game name="uvt" index="true" image="u">
 		<description>Us vs Them</description>
 		<cloneof></cloneof>
 		<crc></crc>
 		<manufacturer>Mylstar</manufacturer>
 		<year>1984</year>
-		<genre>Shoot-&apos;Em-Up</genre>
+		<genre></genre>
 		<rating>AAMA - Green (Suitable For All Ages)</rating>
 		<enabled>Yes</enabled>
 	</game>
